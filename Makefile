@@ -1,6 +1,6 @@
 VERSION = 4
 PATCHLEVEL = 9
-SUBLEVEL = 292
+SUBLEVEL = 317
 EXTRAVERSION =
 NAME = Roaring Lionus
 
@@ -350,7 +350,6 @@ STRIP		= $(CROSS_COMPILE)strip
 OBJCOPY		= $(CROSS_COMPILE)objcopy
 OBJDUMP		= $(CROSS_COMPILE)objdump
 DTC		= scripts/dtc/dtc
-MKDTIMG		= mkdtimg
 AWK		= awk
 GENKSYMS	= scripts/genksyms/genksyms
 INSTALLKERNEL  := installkernel
